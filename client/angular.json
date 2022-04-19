@@ -36,7 +36,9 @@
               "./node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -76,8 +78,8 @@
           "configurations": {
             "production": {
               "browserTarget": "client:build:production",
-              "sslKey": "client/ssl/server.key",
-              "sslCert": "client/ssl/server.crt",
+              "sslKey": "ssl/server.key",
+              "sslCert": "ssl/server.crt",
               "ssl": true
             },
             "development": {
